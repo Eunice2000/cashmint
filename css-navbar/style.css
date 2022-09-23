@@ -1,0 +1,145 @@
+:root{
+    --black: rgba(44, 58, 78, 0.25);
+    --grey: rgba(220, 220, 220, 0.25);
+    --textblack: rgba(0, 0, 0, 1);
+    --white: rgba(255, 255, 255, 1);
+    --blue:rgba(13, 96, 216, 1);
+    --tintblack:rgba(0, 0, 0, 0.8);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+background-image: url("../img/assets/img/backgroundimage.jpg");
+background-size: auto; 
+background-position: center;
+background-repeat: no-repeat;
+font-family: 'Karla', sans-serif;
+}
+ 
+/* .container{
+    width: 80%;
+    overflow: hidden;    
+} */
+
+.head img{
+    display: block;
+    margin: 30px auto;
+    width: auto;
+    height: auto;
+}
+
+.head h2{
+    margin-top: 30px;
+    margin-bottom: 8px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: var(--tintblack);
+}
+
+.head p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.createform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+input{
+    display: block;    
+    padding: 10px;
+    margin: 8px 0px 10px 0px;
+    min-width: 400px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px;
+    border-color: var(--black);
+    background-color: var(--grey);
+    border-radius: 10px;
+    position: relative;
+    font-size: 20px;
+}
+
+label{
+    color: var(--textblack);
+    font-size: 16px;
+    font-weight:bolder;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+input[type=password]{
+    position: relative;
+}
+
+.eye{
+    position: absolute;
+    top:80%;
+    right: 38%;
+}
+
+.eyelogin{
+    position: absolute;
+    top:60%;
+    right: 38%;
+}
+
+#eye2{
+    display: none;
+}
+/*createform*/
+.createform button{
+    margin-top: 40px;
+    padding: 10px 70px;
+    width: 400px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    color: var(--white);
+    background-color: var(--blue);
+    cursor: pointer;
+}
+
+.createaccount{
+    margin-top: 10px;
+    display: flex;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+.createaccount p{   
+    font-weight: 400;
+}
+
+.createaccount a{
+    margin-left:8px;
+    font-size: 16px;
+    font-weight: 700;
+
+}
